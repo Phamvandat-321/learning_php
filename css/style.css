@@ -1,0 +1,39 @@
+a{
+    text-decoration: none;
+}
+#alibaba{
+    color: turquoise;
+}
+#huhu{
+    color: yellowgreen;
+}
+.concacon{
+    color: tomato;
+    text-align: center;
+}
+.left{
+    color: springgreen;
+    text-align: left;
+}
+.center{
+    color: violet;
+    text-align: center;
+}
+.right{
+    color: chocolate;
+    text-align: right;
+}
+
+div > p{
+    color: purple;
+    font-weight: bold;
+    text-align: center;
+}
+
+div > p > b{
+    background-color: yellow;
+}
+
+h5+p {
+    color: green;
+}
