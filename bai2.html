@@ -1,0 +1,77 @@
+<head>
+    <title>Quản lý sinh viên</title>
+</head>
+<h2>QUẢN LÝ SINH VIÊN</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Họ và tên</th>
+            <th>Điểm</th>
+            <th>Xếp loại</th>
+        </tr>
+        <style type="text/css">
+            tr{
+                color: rgb(205, 50, 195);
+            }
+            h2{
+                color: rgb(107, 182, 223);
+                text-shadow: 3px 3px 3px violet ;
+
+            }
+            td{
+                color: tomato;
+            }
+            tbody{
+                background-color: rgb(179, 254, 246);
+            }
+            tfoot{
+                background-color: olivedrab;
+            }
+            tfoot>tr>td{
+                color: rgb(42, 12, 210);
+            }
+
+        </style>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td colspan="4">Khóa A</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Trần Phan Anh</td>
+            <td>10000</td>
+            <td rowspan="2">Khá</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Nguyễn Trọng Đức</td>
+            <td>0,1</td>
+        </tr>
+
+        <tr>
+            <td colspan="4">Khóa B</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Phạm Văn Đạt</td>
+            <td>99</td>
+            <td>Bình thường</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Phạm Quang Minh</td>
+            <td>10</td>
+            <td>Giỏi</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Tổng cộng</td>
+                <td>7.5</td>
+                <td>Khá</td>
+            </tr>
+        </tfoot>
+</table>
