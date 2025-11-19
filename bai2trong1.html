@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>Bài tập 2 trong 1</title>
+    
+    
+    <style type="text/css">
+        h1{
+            color:red;
+            text-align: center;
+            text-shadow: 3px 3px 3px violet ;
+            
+        }
+        p{
+            color:tomato;
+            text-align: center;
+            font-style: italic;
+        }
+        form{
+            text-align: center;
+            
+        }
+        
+        label{
+            text-align: center;
+        }
+        caption{
+            color: red;
+            font-weight: bold;
+            font-size: 30px;
+            text-shadow: 3px 3px 3px rgb(232, 151, 53) ;
+        }
+        thead{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        tbody{
+            color: rgb(225, 58, 167);
+            background-color: darksalmon;
+        }
+        input{
+            color: rgb(238, 15, 15);
+            background-color: limegreen;
+        }
+        textarea{
+            color: plum;
+        }
+    </style>
+
+    </head>
+
+    <body>
+        <h1>Đăng ký tài khoản!</h1>
+    <p>Nhập và lựa chọn thông tin đăng ký</p>
+        <form>
+            <input type="text" id="firstname" name="firstname" placeholder="Tên">
+            <input type="text" id="lastname" name="lastname" placeholder="Họ đệm"><br><br>
+            <input type="text" id="email" name="email" placeholder="Địa chỉ Email">
+            <input type="text" id="phonenumber" name="phonenumber" placeholder="SĐT"><br><br>
+    
+            <label>Chọn thành phố</label>
+        <select>
+            <option value="" disabled selected>Tỉnh</option>
+            <option value="Hanoi">Hà Nội</option>
+            <option value="Hanoi">Hải Dương</option>
+            <option value="Hanoi">Hải Phòng</option>
+            <option value="Hanoi">Hà Giang</option>
+            <option value="Hanoi">Quảng Ninh</option>
+            <option value="Hanoi">Hưng Yên</option>
+            <option value="Hanoi">Vĩnh Phúc</option>
+            <option value="Hanoi">Phú Thọ</option>
+            <option value="Hanoi">Nha Trang</option>
+        </select>
+
+        <br><br>
+
+            <textarea id="node" name="node" rows="10" cols="50" placeholder="Ghi chú"></textarea>
+        <br><br>
+
+            <input type="button" id="btndangki" name="dangky" value="Đăng ký">
+        </form>
+
+        <table border="7" align="center" style="width: 100%; height: 15;" >
+        
+        <caption >Danh sách thành viên đi lấy chân kinh</caption>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Họ và Tên</th>
+                <th>MSV</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Tôn Ngộ Không</td>
+                <td>79DCTT667767</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Trư Bát Giới</td>
+                <td>78DCTT987654</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sa Ngộ Tĩnh</td>
+                <td>77DCTT123456</td>
+            </tr>
+
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <td colspan="3" rowspan="1">Tổng số: 02 sinh viên</td>
+            </tr>
+        </tfoot>
+
+    </body>
+</html>
