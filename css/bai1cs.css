@@ -6,9 +6,9 @@ body {
 
 table {
     width: 600px;
-    border-collapse: collapse;
     margin: auto;
     background: white;
+    box-shadow: 0 0 15px rgb(222, 14, 14);
 }
 
 th, td {
@@ -18,13 +18,13 @@ th, td {
 }
 
 #loai {
-    background: #4CAF50;
+    background: #c878e6;
     color: white;
     font-weight: bold;
 }
 
 td[colspan="4"] {
-    background: #84b4cc;
+    background: #c985df;
     font-weight: bold;
     text-align: left;
     padding-left: 10px;
