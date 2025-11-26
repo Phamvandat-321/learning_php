@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #cdfadd;
+
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+    margin: auto;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+#loai {
+    background: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+td[colspan="4"] {
+    background: #84b4cc;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+}
+
+td[colspan="2"] {
+    background: #f9f9f9;
+    font-weight: bold;
+}
+#tbd, #tbhk {
+    text-align: center;
+    vertical-align: middle;
+}

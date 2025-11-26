@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #efe2e2;
+    padding: 20px;
+}
+
+h1 ,p{
+    text-align: center;
+}
+
+input[type="text"], select, textarea {
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    border: 1px;
+    border-radius: 5px;
+
+}
+
+input[type="text"], select {
+    width: 160px;
+}
+
+textarea {  
+    width: 345px;
+    height: 150px;
+    resize: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4e4caf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#btndangky:hover {
+    background-color: #3c2c79;
+}
