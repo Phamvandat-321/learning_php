@@ -4,8 +4,18 @@ body {
     padding: 20px;
 }
 
+form {
+    width: 400px;
+    background: white;
+    margin: auto;
+    padding: 25px 30px;
+    border-radius: 14px;
+    box-shadow: 0 0 12px rgb(81, 82, 82);
+}
+
 h1 ,p{
     text-align: center;
+    text-shadow: 2px 2px 2px rgb(226, 132, 164) ;
 }
 
 input[type="text"], select, textarea {
@@ -14,6 +24,7 @@ input[type="text"], select, textarea {
     font-size: 14px;
     border: 1px;
     border-radius: 5px;
+    box-shadow: 0 0 12px rgb(198, 97, 196);
 
 }
 
@@ -30,7 +41,7 @@ textarea {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4e4caf;
+    background-color: #69b2e6;
     color: white;
     border: none;
     border-radius: 5px;

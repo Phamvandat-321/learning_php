@@ -1,0 +1,58 @@
+<html>
+<!--vào phát hiện ra thông báo luôn -->
+    <!-- <head>
+        <script lang="javascript">
+            alert("Bấm Vào Đây Làm Đéo Gì");
+        </script>
+    </head> -->
+
+    <!-- <body>
+         phải bấm vào mới hiện ra thông báo -->
+        <!-- <button id = "btnClick" onclick="alert('Bấm Vào Đây Làm Đéo Gì')">Đừng bấm vào đây</button> -->
+
+        <!-- <head>   
+            <script language="javascript" src="demo.js"></script>
+        </head> -->
+<!-- 
+    </body> -->
+
+    <!-- <body>
+        <button id = "myBtn">Nhấp vào đây</button>
+        <script>
+            document.getElementById("myBtn").onmousemove = function(){
+                alert("Sự kiện đã được kích hoạt!");
+            };
+        </script>
+
+        <button id = "myBtn">Nút này không bấm được</button>
+        <script>
+            document.getElementById("myBtn").onclick = function(){
+                alert("Sự kiện đã được kích hoạt!");
+            };
+        </script>
+    </body> -->
+
+
+<form id="myForm">
+    <input type="text" id="name" placeholder="Nhập tên">
+    <button type="submit">Gửi đi</button>        
+</form>
+
+<script>
+    document.getElementById("myForm")
+        .addEventListener("submit", function (event){
+            let name = document.getElementById("name").value;
+
+            if(name === ""){
+                alert("Vui lòng nhập tên giùm!");
+                event.preventDefault(); // chặn gửi form
+            } else {
+                event.preventDefault(); // CHẶN gửi để nhìn alert
+                alert("Bạn đã nhập: " + name);
+            }
+        });
+</script>
+
+
+
+</html>
