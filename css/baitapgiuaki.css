@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Body chỉ làm nền trống và căn giữa */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5; /* màu nền chung cho body */
+}
+
+/* Container là khung chứa form */
+.container {
+    width: 500px;
+    padding: 30px;
+    border-radius: 15px;
+
+    /* Gradient chỉ trong khung */
+    background: linear-gradient(
+        270deg,
+        #f3727d, /* đỏ cam */
+        #FFC371, /* cam vàng */
+        #FF9A8B, /* hồng nhạt */
+        #a640ff  /* tím */
+    );
+    background-size: 1400% 1400%;
+    animation: gradientBG 15s ease infinite;
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+/* Gradient animation */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+h1 {
+    color: #6dd5ed;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 2px rgb(242, 176, 198) ;
+}
+
+.form-group {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-group input {
+    margin-bottom: 20px; /* khoảng cách giữa các ô input */
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    color: #333; /* đen tối để dễ đọc */
+    background-color: rgba(255,255,255,0.8); /* nền nhẹ để nổi chữ */
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+.btn {
+    background-color: #63c2df;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #06ff01;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    display: none;
+}
+
+.error {
+    background-color: #ffebee;
+    color: #c62828;
+    border: 1px solid #ffcdd2;
+}
+
+.success {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #c8e6c9;
+}
+
